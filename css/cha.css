@@ -570,8 +570,8 @@ strong {
   HERO & HERO SLIDE         
 -----------------------------------------*/
 .hero-section-full-height {
-  height: 680px;
-  min-height: 680px;
+  height: 750px;
+  min-height: 750px;
   position: relative;
 }
 
@@ -581,8 +581,8 @@ strong {
 }
 
 #hero-slide .carousel-item {
-  height: 680px;
-  min-height: 680px;
+  height: 750px;
+  min-height: 750px;
 }
 
 #hero-slide .carousel-caption {
@@ -594,7 +594,7 @@ strong {
   left: auto;
   text-align: right;
   width: 100%;
-  min-height: 680px;
+  min-height: 750px;
   padding: 40px 20px 10px 0px;
 }
 
@@ -1400,7 +1400,32 @@ blockquote::before {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1600px) {
+
+  .hero-section-full-height {
+    height: 680px;
+    min-height: 680px;
+    position: relative;
+  }
+  
+  #hero-slide .carousel-item {
+    height: 680px;
+    min-height: 680px;
+  }
+  
+  #hero-slide .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    clip-path: polygon(0% 70%, 100% 70%, 100% 100%, 0% 100%);
+    color: var(--secondary-color);
+    bottom: 0;
+    right: 0;
+    left: auto;
+    text-align: right;
+    width: 100%;
+    min-height: 680px;
+    padding: 40px 20px 10px 0px;
+  }
+  
   .featured-block {
     min-height: inherit;
   }
