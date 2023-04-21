@@ -74,7 +74,7 @@ https://templatemo.com/tm-581-kind-heart-charity
   --h3-font-size:                 32px;
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
+  --h6-font-size:                 20px;
   --p-font-size:                  16px;
   --btn-font-size:                18px;
   --copyright-font-size:          14px;
@@ -587,16 +587,15 @@ strong {
 
 #hero-slide .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
-  clip-path: polygon(100% 100%, 100% 150px, 0 100%);
+  clip-path: polygon(0% 70%, 100% 70%, 100% 100%, 0% 100%);
   color: var(--secondary-color);
-  top: 1px;
-  bottom: -1px;
+  bottom: 0;
   right: 0;
   left: auto;
   text-align: right;
-  min-width: 680px;
-  min-height: 500px;
-  padding: 100px 100px 50px 100px;
+  width: 100%;
+  min-height: 680px;
+  padding: 40px 20px 10px 0px;
 }
 
 #hero-slide .carousel-caption p {
@@ -606,7 +605,8 @@ strong {
 .carousel-image {
   display: block;
   width: 100%;
-  min-height: 680px;
+  min-height: 500px;
+  object-fit: cover;
 }
 
 #hero-slide .carousel-indicators-wrap {
@@ -1416,9 +1416,31 @@ blockquote::before {
   }
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1400px) {
+  .counter-number,
+  .counter-number-text {
+    font-size: var(--h3-font-size);
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .counter-number, .counter-number-text {
+    font-size: var(--h4-font-size);
+  }
+
+  .counter-text {
+    font-size: 12px;
+  }
+
+  #hero-slide .carousel-item {
+    height: 500px;
+    min-height: 500px;
+  }
+
   #hero-slide .carousel-image {
-    height: 100%;
+    width: 100%;
+    min-height: 500px;
     object-fit: cover;
   }
 }
@@ -1581,7 +1603,11 @@ blockquote::before {
 
   .counter-number, 
   .counter-number-text {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
+  }
+
+  .counter-text {
+    font-size: var(--h6-font-size);
   }
 
   .contact-info-wrap {
@@ -1611,18 +1637,23 @@ blockquote::before {
   .hero-section-full-height,
   #hero-slide .carousel-item,
   .carousel-image {
-    min-height: 520px;
+    width: 100%;
+    min-height: 300px;
   }
 
   #hero-slide .carousel-caption {
-    clip-path: polygon(100% 100%, 100% 100px, 0 100%);
-    padding-right: 50px;
-    min-width: inherit;
-    min-height: inherit;
+    clip-path: polygon(0% 65%, 100% 65%, 100% 100%, 0% 100%);
+    padding-right: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    min-height: 300px;
   }
+
+
 }
 
 @media screen and (max-width: 480px) {
+
   h1 {
     font-size: 40px;
   }
@@ -1644,9 +1675,17 @@ blockquote::before {
   }
 
   #hero-slide .carousel-caption {
+    clip-path: polygon(0% 68%, 100% 68%, 100% 100%, 0% 100%);
+    padding-right: 20px;    
     min-width: inherit;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
+
+  #hero-slide .carousel-caption h1 {
+    margin-bottom: 0px;
+    font-size: 38px;
+  }
+
 
   .carousel-control-next-icon, 
   .carousel-control-prev-icon {
