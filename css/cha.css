@@ -1446,6 +1446,11 @@ blockquote::before {
 }
 
 @media screen and (max-width: 991px) {
+
+  br.responsive {
+    display: none; // Hide BR tag for wider screens
+  }
+  
   h1 {
     font-size: 42px;
   }
