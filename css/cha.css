@@ -587,7 +587,7 @@ strong {
 
 #hero-slide .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
-  clip-path: polygon(0% 70%, 100% 70%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 80%, 100% 80%, 100% 100%, 0% 100%);
   color: var(--secondary-color);
   bottom: 0;
   right: 0;
@@ -1415,7 +1415,7 @@ blockquote::before {
   
   #hero-slide .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
-    clip-path: polygon(0% 70%, 100% 70%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 80%, 100% 80%, 100% 100%, 0% 100%);
     color: var(--secondary-color);
     bottom: 0;
     right: 0;
@@ -1473,8 +1473,7 @@ blockquote::before {
 @media screen and (max-width: 991px) {
 
   br.responsive {
-    display: none; // Hide BR tag for wider screens
-  }
+    display: none; 
   
   h1 {
     font-size: 42px;
@@ -1672,7 +1671,7 @@ blockquote::before {
   }
 
   #hero-slide .carousel-caption {
-    clip-path: polygon(0% 65%, 100% 65%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
     padding-right: 20px;
     padding-bottom: 0px;
     width: 100%;
@@ -1705,7 +1704,7 @@ blockquote::before {
   }
 
   #hero-slide .carousel-caption {
-    clip-path: polygon(0% 68%, 100% 68%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 65%, 100% 65%, 100% 100%, 0% 100%);
     padding-right: 20px;    
     min-width: inherit;
     padding-bottom: 0px;
