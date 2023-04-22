@@ -1663,6 +1663,19 @@ blockquote::before {
 }
 
 @media screen and (max-width: 580px) {
+
+  #hero-slide .carousel-image {
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+  }
+
+  #hero-slide .carousel-item {
+    height: 400px;
+    min-height: 400px;
+  }
+
+
   .hero-section-full-height,
   #hero-slide .carousel-item,
   .carousel-image {
@@ -1703,10 +1716,31 @@ blockquote::before {
     font-size: 20px;
   }
 
+  #hero-slide .carousel-image {
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+  }
+
+  #hero-slide .carousel-item {
+    height: 300px;
+    min-height: 300px;
+  }
+
+  .hero-section-full-height,
+  #hero-slide .carousel-item,
+  .carousel-image {
+    width: 100%;
+    min-height: 300px;
+    object-fit: contain;
+  }
+
+
   #hero-slide .carousel-caption {
     clip-path: polygon(0% 65%, 100% 65%, 100% 100%, 0% 100%);
     padding-right: 20px;    
-    min-width: inherit;
+    width: 100%;
+    min-height: 300px;
     padding-bottom: 0px;
   }
 
