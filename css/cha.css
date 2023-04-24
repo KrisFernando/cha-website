@@ -1002,7 +1002,7 @@ blockquote::before {
   background: var(--custom-btn-bg-color);
   border-radius: 50%;
   position: absolute;
-  top: -100px;
+  top: -180px;
   right: -30px;
   margin: auto;
   width: 250px;
@@ -1016,8 +1016,8 @@ blockquote::before {
   position: absolute;
   bottom: -110px;
   left: -80px;
-  width: 275px;
-  height: 275px;
+  width: 205px;
+  height: 205px;
 }
 
 
@@ -1032,25 +1032,24 @@ blockquote::before {
 #testimonial-carousel .carousel-title {
   line-height: 1.4em;
   margin-bottom: 30px;
-  text-transform: none !important;
 }
 
 #testimonial-carousel .carousel-title::before {
   content: open-quote;
   color: var(--p-color);
-  font-size: var(--h1-font-size);
+  font-size: var(--h4-font-size);
   position: relative;
-  top: 17px;
-  right: 10px;
+  top: 5px;
+  right: 5px;
 }
 
 #testimonial-carousel .carousel-title::after {
   content: close-quote;
   color: var(--p-color);
-  font-size: var(--h1-font-size);
+  font-size: var(--h4-font-size);
   position: relative;
-  top: 17px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
 }
 
 #testimonial-carousel .carousel-title {
@@ -1062,7 +1061,7 @@ blockquote::before {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 #testimonial-carousel .carousel-name::before {
@@ -1123,19 +1122,19 @@ blockquote::before {
 #student-testimonial-carousel .carousel-title::before {
   content: open-quote;
   color: var(--p-color);
-  font-size: var(--h1-font-size);
+  font-size: var(--h4-font-size);
   position: relative;
-  top: 17px;
-  right: 10px;
+  top: 5px;
+  right: 5px;
 }
 
 #student-testimonial-carousel .carousel-title::after {
   content: close-quote;
   color: var(--p-color);
-  font-size: var(--h1-font-size);
+  font-size: var(--h4-font-size);
   position: relative;
-  top: 17px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
 }
 
 #student-testimonial-carousel .carousel-title {
@@ -1147,7 +1146,7 @@ blockquote::before {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 #student-testimonial-carousel .carousel-name::before {
@@ -1841,11 +1840,11 @@ blockquote::before {
   }
 
   h4 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   h5 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   #hero-slide .carousel-image {
