@@ -1032,6 +1032,7 @@ blockquote::before {
 #testimonial-carousel .carousel-title {
   line-height: 1.4em;
   margin-bottom: 30px;
+  font-family: var(--body-font-family) !important;
 }
 
 #testimonial-carousel .carousel-title::before {
@@ -1039,7 +1040,7 @@ blockquote::before {
   color: var(--p-color);
   font-size: var(--h4-font-size);
   position: relative;
-  top: 5px;
+  top: 0;
   right: 5px;
 }
 
@@ -1048,7 +1049,7 @@ blockquote::before {
   color: var(--p-color);
   font-size: var(--h4-font-size);
   position: relative;
-  top: 5px;
+  top: 0;
   left: 5px;
 }
 
@@ -1116,7 +1117,7 @@ blockquote::before {
 #student-testimonial-carousel .carousel-title {
   line-height: 1.4em;
   margin-bottom: 30px;
-  text-transform: none !important;
+  font-family: var(--body-font-family) !important;
 }
 
 #student-testimonial-carousel .carousel-title::before {
@@ -1124,7 +1125,7 @@ blockquote::before {
   color: var(--p-color);
   font-size: var(--h4-font-size);
   position: relative;
-  top: 5px;
+  top: 0;
   right: 5px;
 }
 
@@ -1133,7 +1134,7 @@ blockquote::before {
   color: var(--p-color);
   font-size: var(--h4-font-size);
   position: relative;
-  top: 5px;
+  top: 0;
   left: 5px;
 }
 
