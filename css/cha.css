@@ -311,8 +311,8 @@ strong {
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   object-fit: cover;
 }
 
