@@ -1883,6 +1883,39 @@ blockquote::before {
     min-height: 300px;
   }
 
+  .modal-content {
+    top: 10%;
+    opacity: 10;
+    display: block;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px 15px 20px 15px;
+    border: 1px solid #888;
+    width: 90%;
+  }
+  
+  .modal-body {
+    display: block;
+    width: 100%;
+    display: flex;
+  }
+  
+  .modal-image {
+    display: none;
+  }
+  
+  .modal-text {
+    display: block;
+    font-size: medium;
+    padding: 0;
+    width: 100%;
+    float: left;
+  }
+  
+  /* The Close Button */
+  .modal-close {
+    font-size: 20px;
+  }  
 
 }
 
