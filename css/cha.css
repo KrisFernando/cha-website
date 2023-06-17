@@ -1914,7 +1914,7 @@ blockquote::before {
   
   /* The Close Button */
   .modal-close {
-    font-size: 20px;
+    font-size: 40px;
   }  
 
 }
